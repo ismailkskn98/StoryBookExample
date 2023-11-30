@@ -1,15 +1,17 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <Switcher />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Switcher from './components/Switcher/index.vue'
+import HelloWorld from './components/HelloWorld/index.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Switcher
   }
 }
 </script>
